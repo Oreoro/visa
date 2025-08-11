@@ -8,8 +8,8 @@ import PassportSelector from "./PassportSelector";
 function App() {
   const [polygons, setPolygons] = useState({ features: [] });
   const [hoveredCountry, setHoveredCountry] = useState(null);
-  const [userPassport, setUserPassport] = useState("USA");
-  const [userCity, setUserCity] = useState("New York");
+  const [userPassport, setUserPassport] = useState("Pakistan");
+  const [userCity, setUserCity] = useState("Islamabad");
   const [passportMap, setPassportMap] = useState(null);
   const [availableCountries, setAvailableCountries] = useState([]);
   const [countryDataMap, setCountryDataMap] = useState({});
